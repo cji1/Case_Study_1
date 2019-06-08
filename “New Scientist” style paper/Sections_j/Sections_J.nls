@@ -1,0 +1,12 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{$BSM$}]\begingroup Bell State Measurement\nomeqref {0}
+		\nompageref{1}
+  \item [{$MDIQKD$}]\begingroup Measurement-Device-Independent Quantum Key Distribution\nomeqref {0}
+		\nompageref{1}
+  \item [{$QKD$}]\begingroup Quantum Key Distribution\nomeqref {0}
+		\nompageref{1}
+
+\end{thenomenclature}
