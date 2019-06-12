@@ -28,6 +28,7 @@
 \nomenclature{$QKD$}{Quantum Key Distribution}
 \nomenclature{$MDIQKD$}{Measurement-Device-Independent Quantum Key Distribution}
 \nomenclature{$BSM$}{Bell State Measurement}
+\nomenclature{$HOM$}{Hong-Ou-Mandel}
 \printnomenclature
 \end{mdframed}
 
@@ -36,22 +37,30 @@
 
 Researchers from china have successfully demonstrated a three user, four node \textit{measurement-device-independent quantum key distribution} (MDIQKD) network within the city of Hefei. Previous demonstrations of a \textit{quantum key distribution} (QKD) networks, such as by the team at moscow state university\cite{2017QuEle..47..798K} , have been proven to be successful but are vulnerable to attack by an eavesdropper (Eve). Standard QKD networks (also known as prepare and measure QKD networks) have to assume the central relays to be completely trustful. In reality this is extremely unlikely due various security loopholes associated with standard QKD networks. One such security loophole is the \textit{detection loophole}. The \textit{detection loophole} is caused by unavoidable losses in the quantum channel and  the coupling between photon source and optical fibres. Additionally losses occur due to the measurement devices finite detection efficiency. This flaw can allow Eve to perform an \textit{intercept and resend} attack, in which Eve intercepts and measures the state being transmitted and prepares a fake state to be sent to Bob. A MDIQKD network attempts to close the \textit{detection loophole} by \textcolor{red}{removing the measurement devices entirely} and instead uses a shared  central station to create entanglement-like correlations between Alice and Bob through a \textit{Bell-state measurements}(BSM). This approach is based of \textit{time-reversed entanglement based QKD}\cite{PhysRevA.54.2651} \textcolor{red}{and relies on the monogamous nature of entanglement. As Alice and Bob are connected by a fully entangled state, even if Eve completely controls the central station she can not gain any information about the cryptographic key.}
 
-\vspace*{3mm}
+\vspace*{1mm}
 
-Upgrading a standard QKD network to a MDIQKD network has not been attempted until now as there are two main technical challenges that arise. The first being \textit{reference frame calibration}. This refers the the real time alignment of reference frames between network users. In past attempts to achieve \textit{reference frame calibration} researcher have used additional fibre links between users. The results of this is that the demand of fibre links increases quadratically with the number of network users. This is unpractical when scaling up to a city sized user populations. A solution was found by the researchers in China through a \textit{phase feedback scheme}, shown in figure 1. This allowed for a far more manageable linear scaling of fibre links with the number of network users. The second technical challenge involves \textit{maintaining indistinguishability} between the network users.
+Upgrading a standard QKD network to a MDIQKD network has not been attempted until now as there are two main technical challenges that arise. The first being \textit{reference frame calibration}. This refers the the real time alignment of reference frames between network users. In past attempts to achieve \textit{reference frame calibration} researcher have used additional fibre links between users. The results of this is that the demand of fibre links increases quadratically with the number of network users. This is impractical when scaling up to a city sized user populations. A solution was found by the researchers in China through a \textit{phase feedback scheme}, shown in figure 1. This allowed for a far more manageable linear scaling of fibre links with the number of network users.
+
+\begin{figure}
+  \centering 
+  \includegraphics[width=0.7\linewidth]{phase_feedback_scheme.png}
+  \caption{Phase feedback scheme.}
+  \label{figure 1}
+\end{figure}
+
+The second technical challenge involves \textit{maintaining indistinguishability} between the network users. In a MDIQKD network any two users can be switched upon request. \textcolor{red}{ The new user's laser must be calibrated immediately to disallow the new and old users lasers from mixing. Mixing two users lasers would result in the timing, spectrum and polarization mode being indistinguishable between the two users.} A solution was developed using \textit{multi-user HOM interference} technology. The team believes this technology can find applications in \textit{multi-party entanglement swapping-based quantum communication} and a \textit{quantum computing cloud}.
 
 \subsection*{Secure key rate 10 times larger than previous results}
-...
+
+QKD networks can be characterised by their \textit{secure key rate}. It is calculated from the networks gain rates, error rates and error correction efficiency. 
 
 \section*{2 or 3 “boxes” explaining, via diagrams, the key technical ideas of the experiment itself of the theory behind it}
 
-\subsection*{Box 1}
+\subsection*{Box}
 ...
 
    
 
-\subsection*{Box 2}
-...
 
 \bibliographystyle{unsrt}  
 \bibliography{references}  
