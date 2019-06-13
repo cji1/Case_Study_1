@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.29)  5 JUN 2019 21:05
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2018.4.28)  13 JUN 2019 16:31
 entering extended mode
 **Interview_Questionnaire.tex
 (Interview_Questionnaire.tex
@@ -14,14 +14,14 @@ Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -38,40 +38,40 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \covfp@exhd=\skip52
 \covrun@exft=\skip53
 \covfp@exft=\skip54
-\c@num@coverpages=\count87
-\c@latest@ques=\count88
-\c@ques@end=\count89
-\c@last@object=\count90
-\c@incmp@ques=\count91
-\c@next@ques=\count92
-\c@nextq@page=\count93
-\c@tmp@hlfcntr=\count94
-\c@ifpos@cntr=\count95
-\c@question=\count96
-\c@partno=\count97
-\c@subpart=\count98
-\c@subsubpart=\count99
-\c@choice=\count100
-\c@numpoints=\count101
-\c@numbonuspoints=\count102
-\c@pointsof@thisquestion=\count103
-\c@bonuspointsof@thisquestion=\count104
-\c@numquestions=\count105
-\c@numparts=\count106
-\c@numsubparts=\count107
-\c@numsubsubparts=\count108
-\c@Curr@Page=\count109
-\c@@pagepoints=\count110
-\c@@pagebonuspoints=\count111
-\c@pageof@pagepoints=\count112
-\c@pageof@pagebonuspoints=\count113
-\c@latest@points=\count114
-\c@latest@bonuspoints=\count115
+\c@num@coverpages=\count88
+\c@latest@ques=\count89
+\c@ques@end=\count90
+\c@last@object=\count91
+\c@incmp@ques=\count92
+\c@next@ques=\count93
+\c@nextq@page=\count94
+\c@tmp@hlfcntr=\count95
+\c@ifpos@cntr=\count96
+\c@question=\count97
+\c@partno=\count98
+\c@subpart=\count99
+\c@subsubpart=\count100
+\c@choice=\count101
+\c@numpoints=\count102
+\c@numbonuspoints=\count103
+\c@pointsof@thisquestion=\count104
+\c@bonuspointsof@thisquestion=\count105
+\c@numquestions=\count106
+\c@numparts=\count107
+\c@numsubparts=\count108
+\c@numsubsubparts=\count109
+\c@Curr@Page=\count110
+\c@@pagepoints=\count111
+\c@@pagebonuspoints=\count112
+\c@pageof@pagepoints=\count113
+\c@pageof@pagebonuspoints=\count114
+\c@latest@points=\count115
+\c@latest@bonuspoints=\count116
 \pageinfo@commands=\toks14
 \temp@toks=\toks15
 \pagepoint@commands=\toks16
 \point@toks=\toks17
-\c@ques@object=\count116
+\c@ques@object=\count117
 \marginpointssep=\skip55
 \rightpointsmargin=\skip56
 \choice@toks=\toks18
@@ -82,13 +82,13 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \linefillthickness=\skip61
 \dottedlinefillheight=\skip62
 \minboxheight=\skip63
-\c@@iterator=\count117
+\c@@iterator=\count118
 \@cellwidth=\skip64
-\c@tbl@points=\count118
-\c@tbl@bonuspoints=\count119
-\c@num@cols=\count120
+\c@tbl@points=\count119
+\c@tbl@bonuspoints=\count120
+\c@num@cols=\count121
 \saved@totalleftmargin=\dimen103
-\@sollistdepth=\count121
+\@sollistdepth=\count122
 \FrameRule=\dimen104
 \FrameSep=\dimen105
 )
@@ -105,26 +105,29 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
+Requested font "cmr12" at 14.4pt
+Requested font "cmbx12" at 14.4pt
+Requested font "cmbx10" at 10.0pt
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-This exam contains 4 questions with 0 parts, 0 subparts, and 0 subsubparts.
-(Interview_Questionnaire.aux) ) 
-Here is how much of TeX's memory you used:
- 1169 strings out of 493698
- 15039 string characters out of 3144403
- 77648 words of memory out of 3000000
- 4570 multiletter control sequences out of 15000+200000
- 4553 words of font info for 17 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 29i,9n,19p,224b,162s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb>
-Output written on Interview_Questionnaire.pdf (1 page, 45167 bytes).
-PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+]
+This exam contains 5 questions with 0 parts, 0 subparts, and 0 subsubparts.
 
+Class exam Warning: Point totals have changed. Rerun to get point totals right.
+
+
+(Interview_Questionnaire.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1172 strings out of 428790
+ 14853 string characters out of 3164815
+ 77867 words of memory out of 3000000
+ 4554 multiletter control sequences out of 15000+200000
+ 4553 words of font info for 17 fonts, out of 3000000 for 9000
+ 1096 hyphenation exceptions out of 8191
+ 29i,9n,19p,187b,162s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on Interview_Questionnaire.pdf (1 page).
