@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2018.4.28)  13 JUN 2019 16:31
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2018.4.28)  13 JUN 2019 17:22
 entering extended mode
 **Interview_Questionnaire.tex
 (Interview_Questionnaire.tex
@@ -112,22 +112,14 @@ Requested font "cmbx10" at 10.0pt
 
 ]
 This exam contains 5 questions with 0 parts, 0 subparts, and 0 subsubparts.
-
-Class exam Warning: Point totals have changed. Rerun to get point totals right.
-
-
-(Interview_Questionnaire.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(Interview_Questionnaire.aux) ) 
 Here is how much of TeX's memory you used:
- 1172 strings out of 428790
- 14853 string characters out of 3164815
+ 1171 strings out of 428790
+ 14844 string characters out of 3164815
  77867 words of memory out of 3000000
- 4554 multiletter control sequences out of 15000+200000
+ 4553 multiletter control sequences out of 15000+200000
  4553 words of font info for 17 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 29i,9n,19p,187b,162s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,9n,19p,192b,162s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on Interview_Questionnaire.pdf (1 page).
