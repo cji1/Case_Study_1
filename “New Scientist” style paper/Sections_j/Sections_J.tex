@@ -29,6 +29,7 @@
 \nomenclature{$MDIQKD$}{Measurement-Device-Independent Quantum Key Distribution}
 \nomenclature{$BSM$}{Bell State Measurement}
 \nomenclature{$HOM$}{Hong-Ou-Mandel}
+\nomenclature{$BB84$}{Bennett Brassard 1984}
 \printnomenclature
 \end{mdframed}
 
@@ -44,7 +45,7 @@ Upgrading a standard QKD network to a MDIQKD network has not been attempted unti
 \begin{figure}
   \centering 
   \includegraphics[width=0.7\linewidth]{phase_feedback_scheme.png}
-  \caption{Phase feedback scheme.}
+  \caption{Phase feedback scheme\cite{PhysRevX.6.011024}.}
   \label{figure 1}
 \end{figure}
 
@@ -52,7 +53,15 @@ The second technical challenge involves \textit{maintaining indistinguishability
 
 \subsection*{Secure key rate 10 times larger than previous results}
 
-QKD networks can be characterised by their \textit{secure key rate}. It is calculated from the networks gain rates, error rates and error correction efficiency. 
+QKD networks can be characterised by their \textit{secure key rate}.  The secure key rate gives a measure of how much secure information (measured in bits) is transmitted per second by the network. It is calculated from the networks gain rates, error rates and error correction efficiency. The secure key rate is distinct from the \textit{key rate} which only gives a measure of how much information is transmitted per second by the network. Compared to standard QKD networks the key rate is relativity low. Under the same experimental parameters a decoy \textit{BB84 system} with a trustful relay can generate a key rate around 1000bps, \textcolor{red}{over 25 times greater than the team achieved in the MDIQKD network}. However, what a MDIQKD network lacks in key rate it makes up with security. Hence, the secure key rate achieved by the team are at least 10 times higher than previous state of the art field tests. The results are shown in figure 2.
+
+    
+\begin{figure}
+  \centering 
+  \includegraphics[width=0.7\linewidth]{Results.png}
+  \caption{Secure key rate.\cite{PhysRevX.6.011024}.}
+  \label{figure 2}
+\end{figure}
 
 \section*{2 or 3 “boxes” explaining, via diagrams, the key technical ideas of the experiment itself of the theory behind it}
 

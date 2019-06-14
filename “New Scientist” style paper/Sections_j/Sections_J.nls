@@ -2,6 +2,8 @@
 
  \nomgroup{A}
 
+  \item [{$BB84$}]\begingroup Bennett Brassard 1984\nomeqref {0}
+		\nompageref{1}
   \item [{$BSM$}]\begingroup Bell State Measurement\nomeqref {0}
 		\nompageref{1}
   \item [{$HOM$}]\begingroup Hong-Ou-Mandel\nomeqref {0}\nompageref{1}
