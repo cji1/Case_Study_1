@@ -3,15 +3,15 @@
 
 \usepackage{arxiv}
 
-\usepackage[utf8]{inputenc} % allow utf-8 input
-\usepackage[T1]{fontenc}    % use 8-bit T1 fonts
-\usepackage{hyperref}       % hyperlinks
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}    
+\usepackage{hyperref}       
 \usepackage{url}
-\usepackage{xcolor}            % simple URL typesetting
-\usepackage{booktabs}       % professional-quality tables
-\usepackage{amsfonts}       % blackboard math symbols
-\usepackage{nicefrac}       % compact symbols for 1/2, etc.
-\usepackage{microtype}      % microtypography
+\usepackage{xcolor}            
+\usepackage{booktabs}       
+\usepackage{amsfonts}       
+\usepackage{nicefrac}       
+\usepackage{microtype}      
 \usepackage{multicol}
 \usepackage{mdframed}
 \usepackage{physics}
@@ -20,6 +20,9 @@
 \usepackage{nomencl}
 \makenomenclature
 \captionsetup[figure]{font=scriptsize}
+\usepackage{siunitx}
+\usepackage{tcolorbox}
+\usepackage{multicol}
 
 \begin{document}
 
@@ -53,7 +56,7 @@ The second technical challenge involves \textit{maintaining indistinguishability
 
 \subsection*{Secure key rate 10 times larger than previous results}
 
-QKD networks can be characterised by their \textit{secure key rate}.  The secure key rate gives a measure of how much secure information (measured in bits) is transmitted per second by the network. It is calculated from the networks gain rates, error rates and error correction efficiency. The secure key rate is distinct from the \textit{key rate} which only gives a measure of how much information is transmitted per second by the network. Compared to standard QKD networks the key rate is relativity low. Under the same experimental parameters a decoy \textit{BB84 system} with a trustful relay can generate a key rate around 1000bps, \textcolor{red}{over 25 times greater than the team achieved in the MDIQKD network}. However, what a MDIQKD network lacks in key rate it makes up with security. Hence, the secure key rate achieved by the team are at least 10 times higher than previous state of the art field tests. The results are shown in figure 2.
+QKD networks can be characterised by their \textit{secure key rate}.  The secure key rate gives a measure of how much secure information (measured in bits) is transmitted per second by the network. It is calculated from the networks gain rates, error rates and error correction efficiency. The secure key rate is distinct from the \textit{key rate} which only gives a measure of how much information is transmitted per second by the network. Compared to standard QKD networks the key rate for an MDIQKD network is relativity low. Under the same experimental parameters a decoy \textit{BB84 system} with a trustful relay can generate a key rate around 1000bps, \textcolor{red}{over 25 times greater than the team achieved in the MDIQKD network}. However, what a MDIQKD network lacks in key rate it makes up with security. Hence, the secure key rate achieved by the team are at least 10 times higher than previous state of the art field tests. The results are shown in figure 2.
 
     
 \begin{figure}
@@ -65,11 +68,24 @@ QKD networks can be characterised by their \textit{secure key rate}.  The secure
 
 \section*{2 or 3 “boxes” explaining, via diagrams, the key technical ideas of the experiment itself of the theory behind it}
 
-\subsection*{Box}
-...
+\begin{tcolorbox}
+\subsection*{Typical MDIQKD Process}
 
-   
+\begin{multicols}{2}
 
+1. Alice and Bob both prepare \textcolor{red}{phase randomized weak coherent pulses (WCPs) in the four possible polarization states (\ang{0}, \ang{45}, \ang{90}, \ang{135})}.\\
+2. Alice and Bob both send their states to the central relay.\\
+3. \textcolor{red}{The central relay performs a bell state measurement that projects the incoming signals into a bell state}.\\
+4. The relay publicly announces the bell state.\\
+5. Alice and Bob then publicly announce there basis but not there associated bits.\\
+6. \textcolor{red}{From the relays bell state, Alice/Bobs basis and knowing there own bit that was sent. Alice/Bob can work out the opposite parties bit that was sent}\cite{EPR}.
+
+\columnbreak
+
+\includegraphics[width=\linewidth]{image.png}
+
+\end{multicols}
+\end{tcolorbox}
 
 \bibliographystyle{unsrt}  
 \bibliography{references}  
