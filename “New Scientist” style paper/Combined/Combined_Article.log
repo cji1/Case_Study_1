@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2018.4.28)  16 JUN 2019 19:43
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2018.4.28)  19 JUN 2019 22:05
 entering extended mode
 **Combined_Article.tex
 (Combined_Article.tex
@@ -1120,28 +1120,21 @@ Requested font "phvr7t" at 7.0pt
 
 
 ]
-Underfull \hbox (badness 1189) in paragraph at lines 80--81
-[]\OT1/ptm/m/n/9 The sec-ond tech-ni-cal chal-lenge in-volves \OT1/ptm/m/it/9 m
-ain-tain-ing in-dis-tin-
- []
-
-File: map.png Graphic file (type QTm)
-<use  "map.png" >
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 (Combined_Article.bbl) [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
  (Combined_Article.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 112.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 108.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 108.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
  26673 strings out of 428790
  514881 string characters out of 3164815
- 540166 words of memory out of 3000000
+ 541166 words of memory out of 3000000
  29699 multiletter control sequences out of 15000+200000
  33069 words of font info for 82 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
