@@ -253,8 +253,8 @@
 
 %%Comment from here
 \newcommand{\manuscriptnotetxt}{
-Manuscript received xx xxx. 201x; accepted xx xxx. 201x. Date of \par
-Publication xx xxx. 201x; date of current version xx xxx. 201x.\par
+Manuscript received 21. 06. 2019; accepted 21. 06. 2019. Date of \par
+Publication 21. 06. 2019; date of current version 21. 06. 2019.\par
 For information on obtaining reprints of this article, please send \par 
 e-mail to: jonathan.gough.18@ucl.ac.uk.\par
 Digital Object Identifier: xx.xxxx/TVCG.201x.xxxxxxx/
