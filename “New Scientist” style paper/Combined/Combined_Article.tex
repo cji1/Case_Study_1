@@ -59,130 +59,140 @@ With the every advancing development of quantum computation and its ability to b
 \begin{document}
 
 
-\firstsection{QKD great}
+\firstsection{Quantum Cryptography}
 
 \maketitle
 
-Alt: One area in which… is cyber security, where the
-muscular prime factorisation prowess is predicted to make
-a merry mockery of our best existing secret-key methods. /
-The emergence of Quantum Computing has thrown the
-world of cyber-security up in the air.
-While the muscular/barbaric prime factorisation abilities of
-quantum computers seem set to make a mockery of our
-best existing cyber-security measures, study of quantum
-communications has unearthed a prospective lifeline in the
-form of a brand new, watertight security key method,
-whose integrity against eavesdroppers is guaranteed in
-cast iron by the laws of quantum physics.
-----
+At the heart of private communication measures is the
+establishment and distribution of encryption keys secretly
+and securely.
+While the prodigious prime factorisation
+abilities of quantum computers seem set to make a
+mockery of our best existing cyber-security
+measures, study of quantum
+communications has simultaneously unearthed a possible
+lifeline, in the form of a new secure key method, whose
+integrity against eavesdroppers comes with a cast iron
+guarantee, backed by the laws of quantum physics. At
+least in theory.
 Meet Eve, the cardboard eavesdropper. She lurks in every
 theoretical communication model, able to instantly
-recognise any potential weakness, and call on any
-technological trinket to exploit it. A sleek and savage
-predator on a single-minded hunt for illicit data. Intent on
-maximum personal damage to our two communicators,
-Alice and Bob, be it financially, physically, or emotionally.
-Every
-----
-In reality we also need to contend with interference from
-the environment - everything else in the world that
-interacts with our qubit (be it coded to the spin of an ion, or
-photon, or to any quantum-behaved property we can
-decompose in a suitable binary way.
-Of course, everything else might also include malicious
-tampering by Eve, the customary cardboard
-eavesdropper, intent on nothing other that maximum
-personal damage to Alice and Bob, the rando schlubs
-sharing a secret code, physically, socially, emotionally,
-using any and all the data she can leech from the cracks
-in their quantum network
+recognise any potential weakness, able to call on any and
+all existing resources to aid in its exploitation. A ruthless predator on a single-minded hunt
+for illicit data, intent on maximum personal damage to Alice and Bob, our humble network users, she won't rest until maximum ruination is achieved.
+
+
+\section{Enter Quantum Key Distribution}
 
 
 
-\section{but QKD issues}
-\textcolor{orange}{\textbf{"There is no thing as security if it always requires some assumptions"}}. Dr Lluis Masanes,  A leading researcher on quantum information sciences at UCL has his doubts on standard QKD network security.   
+The Quantum key distribution (QKD) network provides a possible solution. Assuming she can find out the bases being used, Eve may then try to intercept Alice's photon, preparing a fake state to send on to Bob, which is known as an intercept and resend attack. However, as long as Alice and Bob keep their basis choices secure during the process, Eve has no way to find them out, and subsequently can never be certain of the original value of the bit.
+
+The best she can do is
+pick randomly, and send her measured state on to Bob. On top of her 50$%$ chance to guess the
+right basis, if she picks wrong, she still has a 50$%$ chance
+to guess the right value, meaning she’ll only be wrong a
+quarter of the time, but it turns out that will be enough.
+
+Afterwards, Alice and Bob share the sequence of bases
+they used over the phone. Eve has, of course, bugged the
+line and hears everything, unbeknownst to our duo.
+
+Alice and Bob discard all the results where they used different bases
+(roughly half), and sacrifice a section of the remaining
+code by confirming it over the insecure line. By analysing
+the compromised results, the unavoidable error rate introduced by
+Eve’s tampering, is increasingly easily
+identified, the more photons she pilfers.
+
+However, all is not lost for Eve, as it’s a long walk from
+chalkboard to lab, and she has far sneakier means at her
+disposal.
+The real world introduces various problems such as
+environmental and atmospheric interference, inherent
+device inaccuracies, creeping alignment errors, and other
+physical limits to accuracy and scope. And sure enough, down amongst the decay, in with the
+interference, is Eve, trying to mask her activity behind the systemic noise.
+
+\begin{tcolorbox}
+\section*{QKD Basics}
+
+We can create, and transmit, photons with chosen qubit states encoded into their polarisation direction. A vertically polarised photon, or $\uparrow$, corresponds to a 0 in our data, while horizontal polarisation, or $\rightarrow$, corresponds to a 1. If we align the emitter with the detector, then when a photon prepared as $\uparrow$, or 0, for instance, reaches the detector, it is measured as $\uparrow$ , or 0, with certainty.
+
+More interestingly, when we tilt either our emitter, or our detector, relative to the other, the probabilities are shifted smoothly from one outcome towards the other. Our measurement will still either be $\uparrow$ or $\rightarrow$ with overall certainty, but with a chance of each outcome. If we tilt our devices at \ang{45} to each other, a photon prepared in either state, $\uparrow$ or $\rightarrow$ , will be measured as $\uparrow$ or $\rightarrow$ with 50/50 chance, and the original information is lost. BB84 is a common protocol, which uses two different bases, ($\uparrow$, $\rightarrow$) and ($\nwarrow$ , $\nearrow$), that are at a \ang{45} angle, and employs random number generators to randomise basis choice for both devices, as well as the choice of bit. Interference by Eve can be detected by analysing discrepancies in Alice and Bob's results. 
+
+\includegraphics[width=\linewidth]{Box_2}
+\textit{Image source: UNS Nice (France), Department of Physics.}
+
+\end{tcolorbox}
+
+ 
+
+
+\section{The Limits of QKD}
+\textcolor{black}{"There is no thing as security if it always requires some assumptions"}. Dr Lluis Masanes,  A leading researcher on quantum information sciences at UCL has his doubts on standard QKD network security.   
 
 \vspace{0.3cm}
 
-\noindent Previous demonstrations of a \textit{quantum key distribution} (QKD) networks, such as by the team at moscow state university\cite{2017QuEle..47..798K} , have been achieved but are vulnerable to an attack by Eve. Standard QKD networks (also known as prepare and measure QKD networks) have to assume the central relays to be completely trustful. In reality this is extremely unlikely due various security loopholes associated with these networks. One such security loophole is the \textit{detection loophole}. The \textit{detection loophole} is caused by unavoidable losses in the quantum channel and  the coupling between photon source and optical fibres. Additionally losses occur due to the measurement devices finite detection efficiency. This flaw can allow Eve to perform an \textit{intercept and resend} attack, in which Eve intercepts and measures the state being transmitted and prepares a fake state to be sent to Bob.
-
-\section{MDIQKD resolve issues associated with QKD}
+\noindent Previous demonstrations of a \textit{quantum key distribution} networks, such as by the team at Moscow State University\cite{2017QuEle..47..798K} , have been achieved but are still vulnerable to an attack by Eve. Standard QKD networks (also known as prepare and measure QKD networks) have to assume the central relays to be completely trustful. In reality this is extremely unlikely due various security loopholes associated with these networks. One such security loophole is the \textit{detection loophole}. The \textit{detection loophole} is caused by unavoidable losses in the quantum channel and the coupling between photon source and optical fibres. Additionally, losses occur due to the measurement devices finite detection efficiency. This flaw can allow Eve to perform an attack such as an \textit{intercept and resend}.
 
 
-A MDIQKD network attempts to close the \textit{detection loophole} by \textcolor{red}{removing the measurement devices entirely} and instead uses a shared  central station to create entanglement-like correlations between Alice and Bob through a \textit{Bell-state measurements}(BSM). This approach is based of \textit{time-reversed entanglement based QKD}\cite{PhysRevA.54.2651}. The bell state measurement provides a vital piece of information that when combined with the outgoing information, it allows the network users to work out what information is being sent to them. As only the network user knows his/her outgoing information, even if Eve completely controls the central station she can not gain any information about the cryptographic key. For a MDIQKD network to be successful it requires that the network users have almost perfect state preparation (fully know what their outgoing information is). However this issue is easily addressed as their states can be experimentally verified in a fully protected laboratory environment, outside of Eve's interference.  
 
-QKD networks can be characterised by their \textit{secure key rate}.  The secure key rate gives a measure of how much secure information (measured in bits) is transmitted per second by the network. It is calculated from the networks gain rates, error rates and error correction efficiency. The secure key rate is distinct from the \textit{key rate} which only gives a measure of how much information is transmitted per second by the network. Compared to standard QKD networks the key rate for an MDIQKD network is relativity low. Under the same experimental parameters a decoy \textit{BB84 system} with a trustful relay can generate a key rate around 1000bps \textcolor{red}{over 25 times greater than the team achieved in the MDIQKD network}. However, what a MDIQKD network lacks in key rate it makes up with security. Hence, the secure key rate achieved by the team are at least 10 times higher than previous state of the art field tests.
+\section{The Future of QKD}
 
-\vspace{0.3cm}
 
-\noindent Prof Alessio Serafini, professor of theoretical physics at UCL reinforced the importance of the teams work for the theory of quantum information.
+A MDIQKD network attempts to close the \textit{detection loophole} by removing the standard measurement devices entirely and instead uses a shared  central station to create entanglement-like correlations between Alice and Bob through \textit{Bell-state measurements}(BSM). This approach is based of \textit{time-reversed entanglement based QKD}\cite{PhysRevA.54.2651}. The bell state measurement provides a vital piece of information that when combined with the outgoing information, it allows the network users to work out what information is being sent to them. As only the network user knows his/her outgoing information, even if Eve completely controls the central station she can not gain any information about the cryptographic key. For an MDIQKD network to be successful it requires that the network users have almost perfect state preparation (fully know what their outgoing information is). However this issue is easily addressed as their states can be experimentally verified in a fully protected laboratory environment, outside of Eve's interference.  
+
+QKD networks can be characterised by their \textit{secure key rate}.  The secure key rate gives a measure of how much secure information (measured in bits) is transmitted per second by the network. It is calculated from the network's gain rates, error rates and error correction efficiency. The secure key rate is distinct from the \textit{key rate} which only gives a measure of how much information is transmitted per second by the network. Compared to standard QKD networks, the key rate for an MDIQKD network is relativity low. Under the same experimental parameters a decoy \textit{BB84 system} with a trustful relay can generate a key rate around 1000bps over 25 times greater than the team achieved in the MDIQKD network. However, what a MDIQKD network lacks in key rate it makes up for with security. Hence, the secure key rate achieved by the team is at least 10 times higher than previous state of the art field tests.
 
 \vspace{0.3cm}
 
-\textcolor{orange}{\textbf{" The theory becomes true when you build a machine with it and Device Independence is very instrumental to this because it tells you this machines can only be quantum, that's in the end what it is.".}}
+\noindent Prof Alessio Serafini, professor of theoretical physics at UCL reinforced the importance of the team's work for the field of quantum information.
 
-\section{But MDIQKD also has issues}
+\vspace{0.3cm}
 
-Upgrading a standard QKD network to a MDIQKD network has not been attempted until now as there are two main technical challenges that arise. The first being \textit{reference frame calibration}. This refers the the real time alignment of reference frames between network users. In past attempts to achieve \textit{reference frame calibration} researcher have used additional fibre links between users. The results of this is that the demand of fibre links increases quadratically with the number of network users. This is impractical when scaling up to a city sized user populations. A solution was found by the researchers in China through a \textit{phase feedback scheme}. This allowed for a far more manageable linear scaling of fibre links with the number of network users.
+\textcolor{orange}{\textbf{" The theory becomes true when you build a machine with it and Device Independence is very instrumental to this because it tells you these machines can only be quantum, that's in the end what it is.".}}
 
-The second technical challenge involves \textit{maintaining indistinguishability} between the network users. In a MDIQKD network any two users can be switched upon request. The new user's signals must be calibrated immediately to disallow the new and old users signals from mixing. Mixing two users signals would result in the timing, spectrum and polarization mode being indistinguishable between the two users. A solution was developed using \textit{multi-user HOM interference} technology. The team believes this technology can find applications in \textit{multi-party entanglement swapping-based quantum communication} and a \textit{quantum computing cloud}.
+\section{The Limits of MDI}
+
+Upgrading a network from standard QKD to MDIQKD has not been attempted until now, as there are two main technical challenges that arise. The first being \textit{reference frame calibration}. This refers the the real time alignment of reference frames between network users. In past attempts to achieve \textit{reference frame calibration} researchers have used additional fibre links between users. The results of this is that the demand for fibre links increases quadratically with the number of network users. This is impractical when scaling up to a city sized user populations. A solution was found by the researchers through a \textit{phase feedback scheme}, which allows for a far more manageable linear scaling of fibre links with the number of network users.
+
+The second technical challenge involves \textit{maintaining indistinguishability} between the network users. In a MDIQKD network any two users can be switched upon request. The new user's signals must be calibrated immediately to disallow the new and old user's signals from mixing. Mixing two users signals would result in the timing, spectrum and polarization mode being indistinguishable between the two users. A solution was developed using a technology called \textit{multi-user HOM interference}. The team believes this technology can find applications in \textit{multi-party entanglement swapping-based quantum communication} and \textit{quantum cloud computing }.
 
 
 \begin{tcolorbox}
-\section{Box 1: Typical MDIQKD Process}
+\section*{Typical MDIQKD Process}
 
 1. Alice and Bob both prepare outgoing signals in the four possible polarization states.\\
 2. Alice and Bob both send their states to the central relay via optical fibres.\\
 3. The central relay performs a bell state measurement that projects the incoming signals into a bell state.\\
 4. The relay publicly announces the bell state.\\
-5. Alice and Bob then publicly announce there basis but not there associated bits.\\
-6. From the relays bell state, Alice/Bobs basis and knowing there own outgoing bit. Alice/Bob can work out the opposite parties bit that was sent.\\
-7. Process is repeated until cryptographic keys are built up.
-
-\end{tcolorbox}
-
-\begin{tcolorbox}
-\section{Box 2: So what QKD?}
-
-In the same way that we can decompose a 2D graph into
-x and y coordinated, so too can we decompose any spin
-representation into x, y, and z components. (fig). each of
-which can be either in the up or down state when
-measured.
-A state that is prepared to be ‘up’ in one direction, z, for
-instance, would be measured as ‘up’ with 100% probability
-if we align our measurement device to the z-direction, but
-would be measured as ‘up’ or ‘down’ with equal
-probability, if we measure in either the ‘x’ or ‘y’ directions.
-With any orientation we choose, we can name a
-z-direction, for instance, and prepare an ion, electron, or
-photon with spin is (prepared to be) aligned perfectly up
-or down in an arbitrary x-direction, will be poised exactly in
-between up and down if measured in the y- or x-directions.
-
-\includegraphics[width=\linewidth]{Box_2}
+5. Alice and Bob then publicly announce their bases but not there associated bits.\\
+6. From the relay's bell state, Alice/Bob's bases and knowing their own outgoing bit. Alice/Bob can work out the opposite party's bit that was sent.\\
+7. The process is repeated until cryptographic keys are built up.
 
 \end{tcolorbox}
 
 
-\section{Experts opinions and next steps}
-
-
-Dr Lluis Masanes also has some doubts on the security of physical MDIQKD networks (shown below). 
+ 
+Dr Masanes believes fully \textit{Device Independence} in provides, in theory, the most secure approach to QKD 
 
 \vspace{0.3cm}
 
-\textcolor{orange}{\textbf{"In the defence of the device independent, it is easy to say  that it Is the most secure framework. But in a given that you define the problem in a way that it is possible at all to do it. Okay, if my device broadcast my secret key. Yeah. I mean, it doesn't matter what you do, it's impossible (to achieve absolute security )".}}
+\textcolor{orange}{\textbf{"It is easy to say  that it is the most secure framework, but only given that you define the problem in a way that it is possible at all to do it."}}
 
 \vspace{0.3cm}
 
-\noindent Instead some research groups are proposing \textit{Semi Device Independence} in an attempt to balance theoretical ambitions and practical constraints. Here the network users only trust certain devices known to be secure. 
-
-  
+\noindent He believes the problem is in the implementation, as it seems that security loopholes are unavoidable with physical constraints. "Okay, for instance, if my device also broadcasts my secret key it doesn't matter what you do, it's impossible to achieve absolute security". Alternatives exist that attempt to balance theoretical ambitions and practical constraints, such as Semi-Device Independent QKD, which requires putting complete trust in some of the devices within your network to boost security overall. The advantage of MDI-QKD is that no devices need to be trusted at all. Another issue arises when considering longer distance secure networks as they require additional relays per every few kilometres. "Errors add up in a pretty bad way", says Masanes. Furthermore increasing the number of devices introduces new opportunities for Eve to attack. "What could the adversary do if she had control over the relay? Maybe if she does things cleverly, there is not much that you could do about it".
 
 
+\section{The Future of MDI}
 
+Scientists are already looking into solutions to these issues, and one new direction they're looking is upwards. "Satellites should be the next step", says Dr Serafini. "If you are able to get above the dense (atmosphere), to almost free space, the signal is less vulnerable to attack", adds Masanes. There are also further potential benefits, such as the presence of existing global satellite networks that could potentially be integrated into QKD networks, and in terms of reducing device requirements, "well, the satellites are very convenient, because otherwise, when the network is big, you need to build lots of optical fibres, for instance". QKD networks are already used in some specific situations within the private sector, such as in secure business transactions. But will developments such as MDI-QKD ever see use by the general public? Masanes and Serafini agree that they probably will, but differ over the time frame. Serafini predicts public systems in as little as 5-10 years, whereas Masanes is a little more conservative. "In 15 years (it might be possible) just to say something. Yeah, but I don't think that in 15 years our society will have this (quite yet)".
+
+\vspace{0.3cm}
+
+\noindent It seems likely that before too long, you might find yourself navigating the quantum network, filling in your quantum tax returns. In any case, it looks like Eve's criminal career may soon be over.
 
 
 
