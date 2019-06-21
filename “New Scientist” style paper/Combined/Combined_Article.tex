@@ -63,56 +63,17 @@ With the every advancing development of quantum computation and its ability to b
 
 \maketitle
 
-At the heart of private communication measures is the
-establishment and distribution of encryption keys secretly
-and securely.
-While the prodigious prime factorisation
-abilities of quantum computers seem set to make a
-mockery of our best existing cyber-security
-measures, study of quantum
-communications has simultaneously unearthed a possible
-lifeline, in the form of a new secure key method, whose
-integrity against eavesdroppers comes with a cast iron
-guarantee, backed by the laws of quantum physics. At
-least in theory.
-Meet Eve, the cardboard eavesdropper. She lurks in every
-theoretical communication model, able to instantly
-recognise any potential weakness, able to call on any and
-all existing resources to aid in its exploitation. A ruthless predator on a single-minded hunt
-for illicit data, intent on maximum personal damage to Alice and Bob, our humble network users, she won't rest until maximum ruination is achieved.
+At the heart of private communication measures is the establishment and distribution of encryption keys secretly and securely. While the prodigious prime factorisation abilities of quantum computers seem set to make a mockery of our best existing cyber-security measures, study of quantum communications has simultaneously unearthed a possible lifeline, in the form of a new secure key method, whose integrity against eavesdroppers comes with a cast iron guarantee, backed by the laws of quantum physics. At least in theory. Meet Eve, the cardboard eavesdropper. She lurks in every theoretical communication model, able to instantly recognise any potential weakness, able to call on any and all existing resources to aid in its exploitation. A ruthless predator on a single-minded hunt for illicit data, intent on maximum personal damage to Alice and Bob, our humble network users, she won't rest until maximum ruination is achieved.
 
 
 \section{Enter Quantum Key Distribution}
 
 
+The Quantum key distribution (QKD) network provides a possible solution. Assuming she can find out the bases being used, Eve may then try to intercept Alice's photon, preparing a fake state to send on to Bob, which is known as an intercept and resend attack. However, as long as Alice and Bob keep their basis choices secure during the process, Eve has no way to find them out, and subsequently can never be certain of the original value of the bit. The best she can do is pick randomly, and send her measured state on to Bob. On top of her 50\% chance to guess the right basis, if she picks wrong, she still has a 50\% chance to guess the right value, meaning she'll only be wrong a quarter of the time, but it turns out that will be enough. Afterwards, Alice and Bob share the sequence of bases they used over the phone. Eve has, of course, bugged the line and hears everything, unbeknownst to our duo.
 
-The Quantum key distribution (QKD) network provides a possible solution. Assuming she can find out the bases being used, Eve may then try to intercept Alice's photon, preparing a fake state to send on to Bob, which is known as an intercept and resend attack. However, as long as Alice and Bob keep their basis choices secure during the process, Eve has no way to find them out, and subsequently can never be certain of the original value of the bit.
+Alice and Bob discard all the results where they used different bases (roughly half), and sacrifice a section of the remaining code by confirming it over the insecure line. By analysing the compromised results, the unavoidable error rate introduced by Eve's tampering, is increasingly easily identified, the more photons she pilfers.
 
-The best she can do is
-pick randomly, and send her measured state on to Bob. On top of her 50$%$ chance to guess the
-right basis, if she picks wrong, she still has a 50$%$ chance
-to guess the right value, meaning she’ll only be wrong a
-quarter of the time, but it turns out that will be enough.
-
-Afterwards, Alice and Bob share the sequence of bases
-they used over the phone. Eve has, of course, bugged the
-line and hears everything, unbeknownst to our duo.
-
-Alice and Bob discard all the results where they used different bases
-(roughly half), and sacrifice a section of the remaining
-code by confirming it over the insecure line. By analysing
-the compromised results, the unavoidable error rate introduced by
-Eve’s tampering, is increasingly easily
-identified, the more photons she pilfers.
-
-However, all is not lost for Eve, as it’s a long walk from
-chalkboard to lab, and she has far sneakier means at her
-disposal.
-The real world introduces various problems such as
-environmental and atmospheric interference, inherent
-device inaccuracies, creeping alignment errors, and other
-physical limits to accuracy and scope. And sure enough, down amongst the decay, in with the
-interference, is Eve, trying to mask her activity behind the systemic noise.
+However, all is not lost for Eve, as it's a long walk from chalkboard to lab, and she has far sneakier means at her disposal. The real world introduces various problems such as environmental and atmospheric interference, inherent device inaccuracies, creeping alignment errors, and other physical limits to accuracy and scope. And sure enough, down amongst the decay, in with the interference, is Eve, trying to mask her activity behind the systemic noise.
 
 \begin{tcolorbox}
 \section*{QKD Basics}
@@ -175,7 +136,7 @@ The second technical challenge involves \textit{maintaining indistinguishability
 
 
  
-Dr Masanes believes fully \textit{Device Independence} in provides, in theory, the most secure approach to QKD 
+\noindent Dr Masanes believes fully \textit{Device Independence} in provides, in theory, the most secure approach to QKD 
 
 \vspace{0.3cm}
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2018.4.28)  21 JUN 2019 19:19
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2018.4.28)  21 JUN 2019 19:29
 entering extended mode
 **Combined_Article.tex
 (Combined_Article.tex
@@ -1117,34 +1117,18 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 Requested font "ptmb7t" at 8.0pt
 Requested font "ptmri7t" at 8.0pt
 Requested font "ptmr7t" at 6.0pt
-Missing character: There is no ’ in font ptmr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
-[]\OT1/ptm/m/n/9 The best she can do is pick ran-domly, and send
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
-\OT1/ptm/m/n/9 her mea-sured state on to Bob. On top of her
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
-\OT1/ptm/m/n/9 50$\OML/ztmcm/m/it/9 rightbasis; ifshepickswrong; shestillhasa\O
-T1/ztmcm/m/n/9 50$\OT1/ptm/m/n/9 to guess the right
- []
-
-Missing character: There is no ’ in font ptmr7t!
 Requested font "ptmr7t" at 7.0pt
 Requested font "phvr7t" at 7.0pt
-[1
+ [1
 
 
 ]
-Missing character: There is no ’ in font ptmr7t!
 File: Box_2.jpg Graphic file (type QTm)
  <use  "Box_2.jpg" >
-Underfull \hbox (badness 1189) in paragraph at lines 160--161
+Underfull \vbox (badness 2229) has occurred while \output is active []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 121--122
 []\OT1/ptm/m/n/9 The sec-ond tech-ni-cal chal-lenge in-volves \OT1/ptm/m/it/9 m
 ain-tain-ing in-dis-tin-
  []
@@ -1154,12 +1138,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
 (Combined_Article.bbl) [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 202.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 202.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
  (Combined_Article.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 202.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 202.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 202.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 163.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 163.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
  ) 
 Here is how much of TeX's memory you used:
  26683 strings out of 428790
