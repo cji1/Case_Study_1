@@ -255,9 +255,9 @@
 \newcommand{\manuscriptnotetxt}{
 Manuscript received 21. 06. 2019; accepted 21. 06. 2019. Date of \par
 Publication 21. 06. 2019; date of current version 21. 06. 2019.\par
-For information on obtaining reprints of this article, please send \par 
-e-mail to: jonathan.gough.18@ucl.ac.uk.\par
-Digital Object Identifier: xx.xxxx/TVCG.201x.xxxxxxx/
+Sections 1,2 and "QKD Basics" - Chris Irish.\par
+Sections 3,4 and "Typical MDIQKD Process" - Jonathan Gough.\par
+Sections 5,6 - Combined efforts.
 }
 %% to here to not use the blank
 
