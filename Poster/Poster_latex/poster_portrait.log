@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2018.4.28)  26 JUN 2019 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.29)  26 JUN 2019 18:21
 entering extended mode
 **poster_portrait.tex
 (poster_portrait.tex
@@ -11,14 +11,14 @@ Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -60,20 +60,20 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@tempa@toks=\toks15
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex"))
-\XKV@depth=\count88
+\XKV@depth=\count87
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count89
-\calc@Bcount=\count90
+\calc@Acount=\count88
+\calc@Bcount=\count89
 \calc@Adimen=\dimen103
 \calc@Bdimen=\dimen104
 \calc@Askip=\skip63
 \calc@Bskip=\skip64
 LaTeX Info: Redefining \setlength on input line 75.
 LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count91
+\calc@Ccount=\count90
 \calc@Cskip=\skip65
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
@@ -82,13 +82,21 @@ Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Program Files\MiKTeX 2.9\tex\xelatex\xetex-def\xetex.def"
-File: xetex.def 2014/07/25 v4.03 LaTeX color/graphics driver for XeTeX (RRM/JK)
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
 Package xcolor Info: Model `RGB' extended on input line 1353.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
@@ -129,7 +137,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: xetex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \Gin@req@height=\dimen107
 \Gin@req@width=\dimen108
@@ -166,25 +174,20 @@ x"
  ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-xetex.def
+Driver file for pgf: pgfsys-pdftex.def
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-xetex.def"
-File: pgfsys-xetex.def 2013/07/16  (rcs-revision 1.9)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-dvipdfmx.def"
-File: pgfsys-dvipdfmx.def 2013/08/28  (rcs-revision 1.12)
+("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
 "
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)
-\pgfsys@objnum=\count96
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
 ex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count97
-\pgfsyssoftpath@bigbuffer@items=\count98
+\pgfsyssoftpath@smallbuffer@items=\count96
+\pgfsyssoftpath@bigbuffer@items=\count97
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
 ex"
@@ -196,7 +199,7 @@ Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen117
-\pgfmath@count=\count99
+\pgfmath@count=\count98
 \pgfmath@box=\box31
 \pgfmath@toks=\toks23
 \pgfmath@stack@operand=\toks24
@@ -220,7 +223,7 @@ ex")
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
 hmetics.code.tex")))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count100
+\c@pgfmathroundto@lastzeros=\count99
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
 "
@@ -258,7 +261,7 @@ File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box32
 \pgf@hbox=\box33
 \pgf@layerbox@main=\box34
-\pgf@picture@serial@count=\count101
+\pgf@picture@serial@count=\count100
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
 de.tex"
@@ -291,7 +294,7 @@ File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen141
-\pgf@sys@shading@range@num=\count102
+\pgf@sys@shading@range@num=\count101
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
 x"
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
@@ -348,7 +351,7 @@ Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
 code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
-\pgf@plot@mark@count=\count103
+\pgf@plot@mark@count=\count102
 \pgfplotmarksize=\dimen146
 )
 \tikz@lastx=\dimen147
@@ -361,18 +364,18 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \tikz@figbox@bg=\box38
 \tikz@tempbox=\box39
 \tikz@tempbox@bg=\box40
-\tikztreelevel=\count104
-\tikznumberofchildren=\count105
-\tikznumberofcurrentchild=\count106
-\tikz@fig@count=\count107
+\tikztreelevel=\count103
+\tikznumberofchildren=\count104
+\tikznumberofcurrentchild=\count105
+\tikz@fig@count=\count106
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count108
-\pgfmatrixcurrentcolumn=\count109
-\pgf@matrix@numberofcolumns=\count110
+\pgfmatrixcurrentrow=\count107
+\pgfmatrixcurrentcolumn=\count108
+\pgf@matrix@numberofcolumns=\count109
 )
-\tikz@expandcount=\count111
+\tikz@expandcount=\count110
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarytopaths.code.tex"
@@ -387,9 +390,7 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
-)
-Requested font "ecrm1000" at 10.0pt
-)
+))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarydecorations.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecorations.code
@@ -399,7 +400,7 @@ librarydecorations.code.tex"
 \pgfdecoratedinputsegmentcompleteddistance=\dimen155
 \pgfdecoratedinputsegmentremainingdistance=\dimen156
 \pgf@decorate@distancetomove=\dimen157
-\pgf@decorate@repeatstate=\count112
+\pgf@decorate@repeatstate=\count111
 \pgfdecorationsegmentamplitude=\dimen158
 \pgfdecorationsegmentlength=\dimen159
 )
@@ -444,14 +445,14 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
 
 Paperwidth=2392.13744pt
 Paperheight=3382.2362pt
-BasePaperwidth=837.2627pt
-BasePaperheight=1183.80331pt
+BasePaperwidth=717.64853pt
+BasePaperheight=1014.68118pt
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
@@ -460,9 +461,9 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count113
-\Gm@cntv=\count114
-\c@Gm@tempcnt=\count115
+\Gm@cnth=\count112
+\Gm@cntv=\count113
+\c@Gm@tempcnt=\count114
 \Gm@bindingoffset=\dimen160
 \Gm@wd@mp=\dimen161
 \Gm@odd@mp=\dimen162
@@ -473,20 +474,29 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen167
 \Gm@dimlist=\toks28
 
-("C:\Program Files\MiKTeX 2.9\tex\xelatex\xetexconfig\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfpages.sty"
 Package: pgfpages 2011/01/05 ver 0.02
-\pgf@logicalpages=\count116
-\pgf@firstshipout=\count117
-\pgf@lastshipout=\count118
-\pgf@currentshipout=\count119
-\pgf@cpn=\count120
-\pgf@shipoutnextto=\count121
+\pgf@logicalpages=\count115
+\pgf@firstshipout=\count116
+\pgf@lastshipout=\count117
+\pgf@currentshipout=\count118
+\pgf@cpn=\count119
+\pgf@shipoutnextto=\count120
 \pgfphysicalheight=\dimen168
 \pgfphysicalwidth=\dimen169
 \pgfpages@shipoutbox=\box42
 )
 \pgfpages@box@1=\box43
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2015/03/10 v2.1b e-TeX tools for LaTeX (JAW)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
+Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
+\et@xins=\count121
+)
+\etb@tempcnta=\count122
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
@@ -508,13 +518,13 @@ Package: amsbsy 1999/11/29 v1.2d
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count122
+\inf@bad=\count123
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count123
-\leftroot@=\count124
+\uproot@=\count124
+\leftroot@=\count125
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count125
-\DOTSCASE@=\count126
+\classnum@=\count126
+\DOTSCASE@=\count127
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -523,15 +533,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen172
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count127
-\c@MaxMatrixCols=\count128
+\macc@depth=\count128
+\c@MaxMatrixCols=\count129
 \dotsspace@=\muskip10
-\c@parentequation=\count129
-\dspbrk@lvl=\count130
+\c@parentequation=\count130
+\dspbrk@lvl=\count131
 \tag@help=\toks30
-\row@=\count131
-\column@=\count132
-\maxfields@=\count133
+\row@=\count132
+\column@=\count133
+\maxfields@=\count134
 \andhelp@=\toks31
 \eqnshift@=\dimen173
 \alignsep@=\dimen174
@@ -564,7 +574,7 @@ Package: relsize 2003/07/04 ver 3.1
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count134
+\c@r@tfl@t=\count135
 \rotFPtop=\skip72
 \rotFPbot=\skip73
 \rot@float@box=\box46
@@ -584,14 +594,14 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
 Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
-\c@tracingmulticols=\count135
+\c@tracingmulticols=\count136
 \mult@box=\box47
 \multicol@leftmargin=\dimen180
-\c@unbalance=\count136
-\c@collectmore=\count137
-\doublecol@number=\count138
-\multicoltolerance=\count139
-\multicolpretolerance=\count140
+\c@unbalance=\count137
+\c@collectmore=\count138
+\doublecol@number=\count139
+\multicoltolerance=\count140
+\multicolpretolerance=\count141
 \full@width=\dimen181
 \page@free=\dimen182
 \premulticols=\dimen183
@@ -622,14 +632,14 @@ Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
 \@tempa=\box68
 \@tempa=\box69
 \@tempa=\box70
-\c@columnbadness=\count141
-\c@finalcolumnbadness=\count142
+\c@columnbadness=\count142
+\c@finalcolumnbadness=\count143
 \last@try=\dimen186
 \multicolovershoot=\dimen187
 \multicolundershoot=\dimen188
 \mult@nat@firstbox=\box71
 \colbreak@box=\box72
-\mc@col@check@num=\count143
+\mc@col@check@num=\count144
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\palatino.sty"
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
@@ -639,24 +649,36 @@ LaTeX Warning: Unused global option(s):
     [final].
 
 (poster_portrait.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 38.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-)
-Requested font "pplr8t" at 10.0pt
-ABD: EveryShipout initializing macros
+) ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count145
+\scratchdimen=\dimen189
+\scratchbox=\box73
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen190
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
+\everyMPtoPDFconversion=\toks36
+) ABD: EveryShipout initializing macros
+*geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -664,15 +686,15 @@ ABD: EveryShipout initializing macros
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(14.93794pt, 807.38681pt, 14.93794pt)
-* v-part:(T,H,B)=(14.93794pt, 1153.92743pt, 14.93794pt)
-* \paperwidth=837.2627pt
-* \paperheight=1183.80331pt
-* \textwidth=807.38681pt
-* \textheight=1153.92743pt
-* \oddsidemargin=-57.33205pt
-* \evensidemargin=-57.33205pt
-* \topmargin=-94.33205pt
+* h-part:(L,W,R)=(12.80386pt, 692.0408pt, 12.80386pt)
+* v-part:(T,H,B)=(12.80386pt, 989.07346pt, 12.80386pt)
+* \paperwidth=717.64853pt
+* \paperheight=1014.68118pt
+* \textwidth=692.0408pt
+* \textheight=989.07346pt
+* \oddsidemargin=-59.46613pt
+* \evensidemargin=-59.46613pt
+* \topmargin=-96.46613pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -690,81 +712,93 @@ ABD: EveryShipout initializing macros
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Requested font "cmex7" at 7.0pt
-Requested font "cmex7" at 5.0pt
-LaTeX Font Info:    Try loading font information for U+msa on input line 86.
+LaTeX Font Info:    Try loading font information for U+msa on input line 88.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-Requested font "msam10" at 10.0pt
-Requested font "msam7" at 7.0pt
-Requested font "msam5" at 5.0pt
-LaTeX Font Info:    Try loading font information for U+msb on input line 86.
+LaTeX Font Info:    Try loading font information for U+msb on input line 88.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Requested font "msbm10" at 10.0pt
-Requested font "msbm7" at 7.0pt
-Requested font "msbm5" at 5.0pt
-Requested font "cmbx10" at 10.0pt
-Requested font "cmbx7" at 7.0pt
-Requested font "cmbx5" at 5.0pt
-Requested font "cmmib10" at 10.0pt
-Requested font "cmmib7" at 7.0pt
-Requested font "cmmib5" at 5.0pt
-Requested font "cmbsy10" at 10.0pt
-Requested font "cmbsy7" at 7.0pt
-Requested font "cmbsy5" at 5.0pt
-File: img/ucl_logo.png Graphic file (type QTm)
-
-<use  "img/ucl_logo.png" >
+<img/ucl_logo.png, id=28, 770.88pt x 770.88pt>
+File: img/ucl_logo.png Graphic file (type png)
+ <use img/ucl_logo.png>
+Package pdftex.def Info: img/ucl_logo.png used on input line 88.
+(pdftex.def)             Requested size: 89.99615pt x 90.0pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 86.
-Requested font "pplb8t" at 10.0pt
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 86.
-Requested font "pplb8t" at 24.88pt
-Requested font "pplr8t" at 24.88pt
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 86.
-Requested font "pplbc8t" at 24.88pt
-Requested font "pplr8t" at 14.4pt
-Requested font "pplrc8t" at 14.4pt
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 88.
+
+Underfull \hbox (badness 1824) in paragraph at lines 110--110
+[]\T1/ppl/m/n/10 Introduction In-tro-duc-tion In-tro-duc-tion In-
+ []
+
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 108.
-Requested font "pplb8t" at 14.4pt
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 110.
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 108.
-Requested font "pplbc8t" at 14.4pt
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 110.
 Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-File: img/ucl-bloomsbury-campus.jpeg Graphic file (type QTm)
- <use  "img/ucl-bloomsbury-campus.jpeg" >
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
- [2
+(poster_portrait.bbl
+Underfull \hbox (badness 1502) in paragraph at lines 4--7
+[]\T1/ppl/m/n/10 Eli Bi-ham, Bruno Hut-tner, and Tal Mor.
+ []
 
-]
-(poster_portrait.aux) ) 
+)
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 1297) in paragraph at lines 133--133
+[]\T1/ppl/m/n/10 Quantum Key Dis-tri-bu-tion Quan-tum Key
+ []
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+<img/combined.png, id=32, 400.49625pt x 405.01312pt>
+File: img/combined.png Graphic file (type png)
+ <use img/combined.png>
+Package pdftex.def Info: img/combined.png used on input line 143.
+(pdftex.def)             Requested size: 448.02036pt x 453.09865pt.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+<img/drunk_spy.jpg, id=33, 534.99875pt x 566.115pt>
+File: img/drunk_spy.jpg Graphic file (type jpg)
+ <use img/drunk_spy.jpg>
+Package pdftex.def Info: img/drunk_spy.jpg used on input line 160.
+(pdftex.def)             Requested size: 201.60779pt x 213.33781pt.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+[2
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/ucl_logo.png> <./im
+g/combined.png> <./img/drunk_spy.jpg>] (poster_portrait.aux) ) 
 Here is how much of TeX's memory you used:
- 14500 strings out of 428790
- 294165 string characters out of 3164815
- 364819 words of memory out of 3000000
- 17518 multiletter control sequences out of 15000+200000
- 18585 words of font info for 41 fonts, out of 3000000 for 9000
- 1096 hyphenation exceptions out of 8191
- 62i,9n,76p,1141b,1000s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 15414 strings out of 493698
+ 313182 string characters out of 3144403
+ 365593 words of memory out of 3000000
+ 18400 multiletter control sequences out of 15000+200000
+ 24599 words of font info for 50 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 62i,9n,76p,834b,1000s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files
+/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/
+type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pala
+tino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.p
+fb>
+Output written on poster_portrait.pdf (1 page, 505156 bytes).
+PDF statistics:
+ 53 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on poster_portrait.pdf (1 page).

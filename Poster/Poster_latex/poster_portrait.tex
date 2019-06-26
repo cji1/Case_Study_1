@@ -1,6 +1,7 @@
-\documentclass[portrait,final,archA0,fontscale=0.35]{baposter}
+\documentclass[portrait,final,archA0,fontscale=0.3]{baposter}
 
-
+\usepackage{etoolbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
 \usepackage{calc}
 \usepackage{graphicx}
 \usepackage{amsmath}
@@ -53,7 +54,8 @@
   % Color style
   bgColorOne=white,
   borderColor=green,
-  headerColorOne=pink,
+  headerColorOne=orange,
+  headerColorOne=orange,
   headerFontColor=black,
   boxColorOne=white,
   % Format of textbox
@@ -77,7 +79,7 @@
    \hfill\vspace{1in}
   \end{minipage} } % Empty space, replace with image if desired
   % Title
-  {\bf \textsc{  The Future of Quantum Key Distribution} }
+  {\bf \textsc{  Measurement Device Independence \\ A spy's worst enemy  } }
   % Authors
   {\textsc{  Chris Irish and Jonathan Gough \\ Department of Physics and Astronomy}}
   % University logo
@@ -110,7 +112,9 @@ Introduction Introduction Introduction Introduction Introduction Introduction In
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{References}{name=references,column=0,above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References References
+
+\bibliographystyle{unsrt}  
+\bibliography{references}
 
 }
 
@@ -129,20 +133,29 @@ Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quant
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\headerbox{Measurement Device Independence}{name=Measurement Device Independence,column=1,span=2,row=0}{
+\headerbox{Alice Has A Secret}{name=Alice Has A Secret,column=1,span=2,row=0}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence Measurement Device Independence
 
+\begin{center}
+    \includegraphics[width=\linewidth]{img/combined} 
+\end{center}  
 
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Alice Has A Secret}{name=Alice Has A Secret,column=1, span=2,below=Measurement Device Independence, above=bottom}{
+  \headerbox{Measurement Device Independence}{name=Measurement Device Independence,column=1, span=2,below=Alice Has A Secret, above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+\noindent Alice and Bob are sick of having their secrets found out by Eve. Bob suggests they try a new approach, \textit{Measurement Device Independent Quantum Key Distribution}. Instead of sending there secrets directly to each other, they send them to a third party (Charlie). Charlie can combine Alice and Bobs information and perform a operation unique to quantum physics, called a Bell Measurement. The bell state measurement provides a vital piece of information that when combined with Alice and Bobs information, it allows them to work out what information is being sent to them. As only Alice/Bob knows her/his outgoing information, only they can know what information is being passed through the network.
+
+\vspace{0.3cm}
+
+\noindent However Bob has had one to many cranberry juices/Barnsley Bitters and can no longer remember what he sent to Alice. Just like Eve, Bob is now locked out of the network as Charlie can no longer verify him as a network user. Silly forgetful Bob!  
+
 \begin{center}
-    \includegraphics[width=\linewidth]{img/ucl-bloomsbury-campus} 
-\end{center}
+    \includegraphics[width=0.45\linewidth]{img/drunk_spy} 
+\end{center} 
 
 }
 
