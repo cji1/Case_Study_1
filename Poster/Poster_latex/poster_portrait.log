@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2018.4.28)  26 JUN 2019 12:11
+This is XeTeX, Version 3.14159265-2.6-0.99991 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2018.4.28)  26 JUN 2019 15:59
 entering extended mode
 **poster_portrait.tex
 (poster_portrait.tex
@@ -442,10 +442,10 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
 \baposter@basemarginright=\skip67
 \baposter@basemarginleft=\skip68
 
-Paperwidth=1734.48pt
-Paperheight=2601.71999pt
-BasePaperwidth=827.35564pt
-BasePaperheight=1241.03345pt
+Paperwidth=2392.13744pt
+Paperheight=3382.2362pt
+BasePaperwidth=837.2627pt
+BasePaperheight=1183.80331pt
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -639,19 +639,19 @@ LaTeX Warning: Unused global option(s):
     [final].
 
 (poster_portrait.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 37.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -664,15 +664,15 @@ ABD: EveryShipout initializing macros
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(20.35815pt, 786.63933pt, 20.35815pt)
-* v-part:(T,H,B)=(20.35815pt, 1200.31714pt, 20.35815pt)
-* \paperwidth=827.35564pt
-* \paperheight=1241.03345pt
-* \textwidth=786.63933pt
-* \textheight=1200.31714pt
-* \oddsidemargin=-51.91183pt
-* \evensidemargin=-51.91183pt
-* \topmargin=-88.91183pt
+* h-part:(L,W,R)=(14.93794pt, 807.38681pt, 14.93794pt)
+* v-part:(T,H,B)=(14.93794pt, 1153.92743pt, 14.93794pt)
+* \paperwidth=837.2627pt
+* \paperheight=1183.80331pt
+* \textwidth=807.38681pt
+* \textheight=1153.92743pt
+* \oddsidemargin=-57.33205pt
+* \evensidemargin=-57.33205pt
+* \topmargin=-94.33205pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -692,14 +692,14 @@ ABD: EveryShipout initializing macros
 
 Requested font "cmex7" at 7.0pt
 Requested font "cmex7" at 5.0pt
-LaTeX Font Info:    Try loading font information for U+msa on input line 106.
+LaTeX Font Info:    Try loading font information for U+msa on input line 86.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 Requested font "msam10" at 10.0pt
 Requested font "msam7" at 7.0pt
 Requested font "msam5" at 5.0pt
-LaTeX Font Info:    Try loading font information for U+msb on input line 106.
+LaTeX Font Info:    Try loading font information for U+msb on input line 86.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -716,183 +716,55 @@ Requested font "cmmib5" at 5.0pt
 Requested font "cmbsy10" at 10.0pt
 Requested font "cmbsy7" at 7.0pt
 Requested font "cmbsy5" at 5.0pt
-Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 106 replaced by U+FFFD.
-File: img/stevenslogo.eps Graphic file (type eps)
+File: img/ucl_logo.png Graphic file (type QTm)
 
-<img/stevenslogo.eps>
+<use  "img/ucl_logo.png" >
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 106.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 86.
 Requested font "pplb8t" at 10.0pt
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 106.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 86.
 Requested font "pplb8t" at 24.88pt
 Requested font "pplr8t" at 24.88pt
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 106.
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 86.
 Requested font "pplbc8t" at 24.88pt
 Requested font "pplr8t" at 14.4pt
 Requested font "pplrc8t" at 14.4pt
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 129.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 108.
 Requested font "pplb8t" at 14.4pt
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 129.
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 108.
 Requested font "pplbc8t" at 14.4pt
 Missing character: There is no ; in font nullfont!
-Requested font "pplr8t" at 8.0pt
-Requested font "pplri8t" at 8.0pt
-
-Underfull \hbox (badness 1052) in paragraph at lines 147--147
-\T1/ppl/m/n/8 Bayesian in-fer-ence on mul-ti-vari-ate ex-po-nen-tial fam-i-lies
-," \T1/ppl/m/it/8 Ad-
- []
-
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-Requested font "cmti10" at 10.0pt
-Requested font "cmti7" at 7.0pt
-Requested font "cmti7" at 5.0pt
-Requested font "pplr8t" at 7.0pt
-Requested font "pplr8t" at 5.0pt
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
-
- []
-
-File: img/grid_octrees_predict.pdf Graphic file (type QTm)
-<use  "img/grid_octrees_predict.pdf" >
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-File: img/sim_structured.png Graphic file (type QTm)
- <use  "img/sim_structured.png" >
-File: img/sim_structured_raw.png Graphic file (type QTm)
-
-<use  "img/sim_structured_raw.png" >
-File: img/sim_structured_octomap.png Graphic file (type QTm)
- <use  "img/sim_structured_octomap.png" >
-File: img/sim_structured_bgk.png Graphic file (type QTm)
-
-<use  "img/sim_structured_bgk.png" >
-File: img/sim_unstructured.jpg Graphic file (type QTm)
- <use  "img/sim_unstructured.jpg" >
-File: img/sim_unstructured_raw.png Graphic file (type QTm)
-
-<use  "img/sim_unstructured_raw.png" >
-File: img/octomap_sim_unstructured.png Graphic file (type QTm)
-
-<use  "img/octomap_sim_unstructured.png" >
-File: img/sim_unstructured_bgk.png Graphic file (type QTm)
-
-<use  "img/sim_unstructured_bgk.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-
- []
-
-Requested font "pplri8t" at 10.0pt
-File: img/fr_corridor_raw.png Graphic file (type QTm)
-<use  "img/fr_corridor_raw.png" >
-File: img/fr_corridor_octomap.png Graphic file (type QTm)
- <use  "img/fr_corridor_octomap.png" >
-File: img/fr_corri2.png Graphic file (type QTm)
-
-<use  "img/fr_corri2.png" >
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-
- []
-
-File: img/long_term_gbk_1.png Graphic file (type QTm)
-<use  "img/long_term_gbk_1.png" >
-File: img/long_term_gbk_15.png Graphic file (type QTm)
- <use  "img/long_term_gbk_15.png" >
-File: img/long_term_gbk_30.png Graphic file (type QTm)
-
-<use  "img/long_term_gbk_30.png" >
-File: img/long_term_gbk_60.png Graphic file (type QTm)
- <use  "img/long_term_gbk_60.png" >
-Overfull \hbox (0.85223pt too wide) in paragraph at lines 305--305
-[][] [] [] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-
- []
-
-File: img/long_term_gpoctomap_1.png Graphic file (type QTm)
-<use  "img/long_term_gpoctomap_1.png" >
-File: img/long_term_gpoctomap_15.png Graphic file (type QTm)
-
-<use  "img/long_term_gpoctomap_15.png" >
-File: img/long_term_gpoctomap_30.png Graphic file (type QTm)
-
-<use  "img/long_term_gpoctomap_30.png" >
-File: img/long_term_gpoctomap_60.png Graphic file (type QTm)
-
-<use  "img/long_term_gpoctomap_60.png" >
-Overfull \hbox (0.85223pt too wide) in paragraph at lines 305--305
-[][] [] [] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-
- []
-
-File: img/sim_structured_roc.pdf Graphic file (type QTm)
-<use  "img/sim_structured_roc.pdf" >
-File: img/sim_unstructured_roc.pdf Graphic file (type QTm)
- <use  "img/sim_unstructured_roc.pdf" >
+File: img/ucl-bloomsbury-campus.jpeg Graphic file (type QTm)
+ <use  "img/ucl-bloomsbury-campus.jpeg" >
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+ [2
 
-[2
-
-] (poster_portrait.aux) ) 
+]
+(poster_portrait.aux) ) 
 Here is how much of TeX's memory you used:
- 14555 strings out of 428790
- 291770 string characters out of 3164815
- 389397 words of memory out of 3000000
- 17551 multiletter control sequences out of 15000+200000
- 24216 words of font info for 49 fonts, out of 3000000 for 9000
+ 14500 strings out of 428790
+ 294165 string characters out of 3164815
+ 364819 words of memory out of 3000000
+ 17518 multiletter control sequences out of 15000+200000
+ 18585 words of font info for 41 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 62i,22n,76p,676b,1006s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,9n,76p,1141b,1000s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on poster_portrait.pdf (1 page).
