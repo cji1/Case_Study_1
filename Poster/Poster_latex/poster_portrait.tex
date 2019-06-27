@@ -1,4 +1,4 @@
-\documentclass[portrait,final,archA0,fontscale=0.3]{baposter}
+\documentclass[portrait,final,archA0,fontscale=0.372]{baposter}
 
 \usepackage{etoolbox}
 \patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
@@ -38,9 +38,6 @@
 \begin{document}
 
 
-
-\definecolor{stevensred}{rgb}{0.6392,0.149,0.2196}
-\definecolor{stevensgray}{rgb}{0.60392, 0.596, 0.60392}
 \definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
 
 %%
@@ -79,7 +76,7 @@
    \hfill\vspace{1in}
   \end{minipage} } % Empty space, replace with image if desired
   % Title
-  {\bf \textsc{  Measurement Device Independence \\ A spy's worst enemy  } }
+  {\bf \textsc{  Measurement Device Independence \\ Eve's worst nightmare  } }
   % Authors
   {\textsc{  Chris Irish and Jonathan Gough \\ Department of Physics and Astronomy}}
   % University logo
@@ -105,7 +102,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{Introduction}{name=Introduction,column=0,row=0}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction Introduction
+
+\noindent\textbf{It started with a secret}. Alice "found" a wholesale box of Monster Munch behind the UCL cafeteria, and quickly stashed it in some bushes. She wanted to share it with Bob, as she'd never manage the entire box herself, but had to be careful, or she might have to share with everyone else too! She sent an \textbf{encrypted message} to Bob, to share the amazing news, but the joy would soon turn sour. Bob called back shortly afterwards - he'd been to the drop, but every one of the delectable maize snacks had vanished! They realised their secret \textbf{encryption key} had been cracked, and it could only be one person: \textbf{Eve the eavesdropper}. Eve loves to learn people's secrets and share them with everyone, and Alice is the perfect mark. Alice and Bob need a method to tell when Eve is listening in on their conversations, luckily Bob's been reading the latest issue of cryptographic weekly and thinks he may have the answer. They needed \textbf{Quantum Key Distribution}!
+
+%Many encryption methods are based on maths problems that are too hard for computers to solve within a sensible time, but have solutions that can be quickly checked, making them quick to use, but hard to crack. But these methods were now vulnerable to new quantum computers, and Eve must have asked for one for her recent birthday!$ 
+
+\begin{center}
+    \includegraphics[width=\linewidth]{img/mm} 
+\end{center}
+
 
 }
 
@@ -113,7 +118,8 @@ Introduction Introduction Introduction Introduction Introduction Introduction In
   \headerbox{References}{name=references,column=0,above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\bibliographystyle{unsrt}  
+\bibliographystyle{unsrt} 
+%\cite{PhysRevX.6.011024}$ 
 \bibliography{references}
 
 }
@@ -121,14 +127,16 @@ Introduction Introduction Introduction Introduction Introduction Introduction In
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \headerbox{Quantum Key Distribution}{name=Quantum Key Distribution,column=0,below=Introduction, above=references}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution 
-Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution 
-Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution 
-Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution 
-Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution 
-Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution 
-Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution 
-Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution 
+
+\noindent Luckily, UCL had some suitable components lying around, and a spare \textbf{fibre-optic network}, spanning important sites such as IT, the Library, and McDonald's. With QKD in place, Alice sent photons of light, polarised in different directions to represent binary bit values (0 or 1) of the \textbf{encryption keys}. They would switch their instruments randomly between two \textbf{bases}, so that if you measured in the wrong basis, you would get a random value, and you couldn't be sure if anything was correct. Eve's also been reading the latest issue though and is familiar with the dark arts of quantum hacking, and wouldn't be put off so easily. She intercepted and measured some of Alice's photons, and prepared new photons to send on to Bob. Alice and Bob were clever though. They shared some of the results on the phone, with Eve listening in, and managed to spot the wrong bits, or \textbf{bit errors}, caused when she'd guessed incorrectly.
+
+\vspace{0.3cm}
+
+\noindent Eve was rumbled, it seemed all was lost. But another flick through the latest cryptography weekly gave her new hope - she just had to be extra sneaky to exploit the \textbf{loopholes}. Alice's signal would experience interference from the environment, and the further it travelled, the more bit errors were introduced. Errors also occurred due to their equipment gradually starting to point the wrong way, or becoming misaligned. The errors caused by Eve's interactions became harder to spot. Eve learned to cleverly manipulate the signal to put Alice and Bob's equipment a little out of sync without them realising, providing extra cover for her attacks. Worse still, distances of over a few km, such as from the library to McDonald's, weren't possible without using a relay to pass on the signal. This relay Eve could easily hack, and control.
+
+\vspace{0.3cm}
+
+\noindent Even as Alice transmitted the entire contents of her little sister's diary, she didn't talk for fear of discovery. But when Alice confessed that her favourite Love Island contestant was Curtis, Eve just couldn't be quiet any longer, and humiliation soon followed.
 
 }
 
@@ -143,21 +151,35 @@ Quantum Key Distribution Quantum Key Distribution Quantum Key Distribution Quant
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  \headerbox{Measurement Device Independence}{name=Measurement Device Independence,column=1, span=2,below=Alice Has A Secret, above=bottom}{
+  \headerbox{Definitions}{name=Definitions,column=1, span=2,below=Alice Has A Secret }{
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{Bell State Measurement}: hcjkhugyftygoiuggch \\
+\textbf{Bell State Measurement}: hcjkhugyftygoiuggch \\
+\textbf{Bell State Measurement}: hcjkhugyftygoiuggch \\
+\textbf{Bell State Measurement}: hcjkhugyftygoiuggch \\
+
+
+
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \headerbox{Measurement Device Independence}{name=Measurement Device Independence,column=1, span=2,below=Definitions, above=bottom}{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\noindent Alice and Bob are sick of having their secrets found out by Eve. Bob suggests they try a new approach, \textit{Measurement Device Independent Quantum Key Distribution}. Instead of sending there secrets directly to each other, they send them to a third party (Charlie). Charlie can combine Alice and Bobs information and perform a operation unique to quantum physics, called a Bell Measurement. The bell state measurement provides a vital piece of information that when combined with Alice and Bobs information, it allows them to work out what information is being sent to them. As only Alice/Bob knows her/his outgoing information, only they can know what information is being passed through the network.
+\noindent Alice and Bob are sick of having their secrets discovered by Eve. Bobs been reading the newest issue of cryptographic weekly and discovers a new approach, \textbf{Measurement Device Independent Quantum Key Distribution}. Instead of sending their secrets directly to each other, they send them to a third party, there friend \textbf{Charlie}. Charlie can combine Alice and Bob's \textbf{information} and perform an operation unique to quantum physics, called a \textbf{Bell Measurement}. The bell measurement provides a vital piece of information that when combined with Alice and Bob's data, allows them to work out what is being sent. As only Alice/Bob knows her/his outgoing data, only they can know what information is being passed through the network.
 
 \vspace{0.3cm}
 
-\noindent However Bob has had one to many cranberry juices/Barnsley Bitters and can no longer remember what he sent to Alice. Just like Eve, Bob is now locked out of the network as Charlie can no longer verify him as a network user. Silly forgetful Bob!  
+\noindent However Bob has had one too many Barnsley Bitters and can no longer remember what he sent to Alice. Just like Eve, Bob is now locked out of the network, as Charlie can no longer verify him as a network user. Silly forgetful Bob!  
 
 \begin{center}
-    \includegraphics[width=0.45\linewidth]{img/drunk_spy} 
+    \includegraphics[width=0.3\linewidth]{img/drunk_spy} 
 \end{center} 
 
 }
+
 
 
 \end{poster}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.29)  26 JUN 2019 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.29)  27 JUN 2019 16:00
 entering extended mode
 **poster_portrait.tex
 (poster_portrait.tex
@@ -445,8 +445,8 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.0 (rcs-revision 1.9)
 
 Paperwidth=2392.13744pt
 Paperheight=3382.2362pt
-BasePaperwidth=717.64853pt
-BasePaperheight=1014.68118pt
+BasePaperwidth=889.86081pt
+BasePaperheight=1258.17163pt
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -686,15 +686,15 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(12.80386pt, 692.0408pt, 12.80386pt)
-* v-part:(T,H,B)=(12.80386pt, 989.07346pt, 12.80386pt)
-* \paperwidth=717.64853pt
-* \paperheight=1014.68118pt
-* \textwidth=692.0408pt
-* \textheight=989.07346pt
-* \oddsidemargin=-59.46613pt
-* \evensidemargin=-59.46613pt
-* \topmargin=-96.46613pt
+* h-part:(L,W,R)=(15.87637pt, 858.10806pt, 15.87637pt)
+* v-part:(T,H,B)=(15.87637pt, 1226.41888pt, 15.87637pt)
+* \paperwidth=889.86081pt
+* \paperheight=1258.17163pt
+* \textwidth=858.10806pt
+* \textheight=1226.41888pt
+* \oddsidemargin=-56.39362pt
+* \evensidemargin=-56.39362pt
+* \topmargin=-93.39362pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -712,11 +712,11 @@ File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 88.
+LaTeX Font Info:    Try loading font information for U+msa on input line 85.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 88.
+LaTeX Font Info:    Try loading font information for U+msb on input line 85.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -724,57 +724,62 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <img/ucl_logo.png, id=28, 770.88pt x 770.88pt>
 File: img/ucl_logo.png Graphic file (type png)
  <use img/ucl_logo.png>
-Package pdftex.def Info: img/ucl_logo.png used on input line 88.
+Package pdftex.def Info: img/ucl_logo.png used on input line 85.
 (pdftex.def)             Requested size: 89.99615pt x 90.0pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 88.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 88.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 88.
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 85.
 
-Underfull \hbox (badness 1824) in paragraph at lines 110--110
-[]\T1/ppl/m/n/10 Introduction In-tro-duc-tion In-tro-duc-tion In-
- []
-
+<img/mm.jpg, id=30, 501.875pt x 501.875pt>
+File: img/mm.jpg Graphic file (type jpg)
+ <use img/mm.jpg>
+Package pdftex.def Info: img/mm.jpg used on input line 115.
+(pdftex.def)             Requested size: 269.36508pt x 269.3773pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 110.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 110.
+(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 115.
 Missing character: There is no ; in font nullfont!
+
 (poster_portrait.bbl
-Underfull \hbox (badness 1502) in paragraph at lines 4--7
-[]\T1/ppl/m/n/10 Eli Bi-ham, Bruno Hut-tner, and Tal Mor.
+Underfull \hbox (badness 1237) in paragraph at lines 4--11
+\T1/ppl/m/n/10 Yun Chen, and Jian-Wei Pan.  Measurement-device-
  []
 
 )
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+ <img/combined.png, id=33, 2304.35907pt x 2320.16812pt>
+File: img/combined.png Graphic file (type png)
 
-Underfull \hbox (badness 1297) in paragraph at lines 133--133
-[]\T1/ppl/m/n/10 Quantum Key Dis-tri-bu-tion Quan-tum Key
+<use img/combined.png>
+Package pdftex.def Info: img/combined.png used on input line 151.
+(pdftex.def)             Requested size: 558.73016pt x 562.55159pt.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
+
  []
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<img/combined.png, id=32, 400.49625pt x 405.01312pt>
-File: img/combined.png Graphic file (type png)
- <use img/combined.png>
-Package pdftex.def Info: img/combined.png used on input line 143.
-(pdftex.def)             Requested size: 448.02036pt x 453.09865pt.
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-<img/drunk_spy.jpg, id=33, 534.99875pt x 566.115pt>
+<img/drunk_spy.jpg, id=34, 534.99875pt x 566.115pt>
 File: img/drunk_spy.jpg Graphic file (type jpg)
  <use img/drunk_spy.jpg>
-Package pdftex.def Info: img/drunk_spy.jpg used on input line 160.
-(pdftex.def)             Requested size: 201.60779pt x 213.33781pt.
+Package pdftex.def Info: img/drunk_spy.jpg used on input line 181.
+(pdftex.def)             Requested size: 167.62074pt x 177.36832pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -782,23 +787,26 @@ Missing character: There is no ; in font nullfont!
 [2
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/ucl_logo.png> <./im
-g/combined.png> <./img/drunk_spy.jpg>] (poster_portrait.aux) ) 
+g/mm.jpg> <./img/combined.png
+
+pdfTeX warning: pdflatex (file ./img/combined.png): large interlaced PNG might 
+cause out of memory (use non-interlaced PNG to fix this)
+> <./img/drunk_spy.jpg>] (poster_portrait.aux) ) 
 Here is how much of TeX's memory you used:
- 15414 strings out of 493698
- 313182 string characters out of 3144403
- 365593 words of memory out of 3000000
- 18400 multiletter control sequences out of 15000+200000
- 24599 words of font info for 50 fonts, out of 3000000 for 9000
+ 15487 strings out of 493698
+ 315061 string characters out of 3144403
+ 374286 words of memory out of 3000000
+ 18472 multiletter control sequences out of 15000+200000
+ 25208 words of font info for 51 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,9n,76p,834b,1000s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files
-/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/
-type1/urw/palatino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pala
-tino/uplr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.p
-fb>
-Output written on poster_portrait.pdf (1 page, 505156 bytes).
+ 62i,9n,76p,1023b,1000s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fo
+nts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pala
+tino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on poster_portrait.pdf (1 page, 6261925 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 55 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 130 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 words of extra memory for PDF output out of 10000 (max. 10000000)
 

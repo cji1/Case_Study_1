@@ -1,8 +1,12 @@
 \begin{thebibliography}{1}
 
-\bibitem{PhysRevA.54.2651}
-Eli Biham, Bruno Huttner, and Tal Mor.
-\newblock Quantum cryptographic network based on quantum memories.
-\newblock {\em Phys. Rev. A}, 54:2651--2658, Oct 1996.
+\bibitem{PhysRevX.6.011024}
+Yan-Lin Tang, Hua-Lei Yin, Qi~Zhao, Hui Liu, Xiang-Xiang Sun, Ming-Qi Huang,
+  Wei-Jun Zhang, Si-Jing Chen, Lu~Zhang, Li-Xing You, Zhen Wang, Yang Liu,
+  Chao-Yang Lu, Xiao Jiang, Xiongfeng Ma, Qiang Zhang, Teng-Yun Chen, and
+  Jian-Wei Pan.
+\newblock Measurement-device-independent quantum key distribution over
+  untrustful metropolitan network.
+\newblock {\em Phys. Rev. X}, 6:011024, Mar 2016.
 
 \end{thebibliography}
