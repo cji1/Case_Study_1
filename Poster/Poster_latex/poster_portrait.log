@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.29)  27 JUN 2019 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.29)  27 JUN 2019 21:33
 entering extended mode
 **poster_portrait.tex
 (poster_portrait.tex
@@ -733,11 +733,11 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/sc' tried instead on input line 85.
 
-<img/mm.jpg, id=30, 501.875pt x 501.875pt>
+<img/mm.jpg, id=30, 752.8125pt x 1027.84pt>
 File: img/mm.jpg Graphic file (type jpg)
  <use img/mm.jpg>
 Package pdftex.def Info: img/mm.jpg used on input line 115.
-(pdftex.def)             Requested size: 269.36508pt x 269.3773pt.
+(pdftex.def)             Requested size: 188.55473pt x 257.42987pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
@@ -767,19 +767,35 @@ Package pdftex.def Info: img/combined.png used on input line 151.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+ <img/qbit_thic.png, id=34, 1843.63782pt x 1662.21pt>
+File: img/qbit_thic.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
+<use img/qbit_thic.png>
+Package pdftex.def Info: img/qbit_thic.png used on input line 172.
+(pdftex.def)             Requested size: 217.49435pt x 196.08328pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
 
  []
 
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<img/drunk_spy.jpg, id=34, 534.99875pt x 566.115pt>
+<img/drunk_spy.jpg, id=35, 534.99875pt x 566.115pt>
 File: img/drunk_spy.jpg Graphic file (type jpg)
  <use img/drunk_spy.jpg>
-Package pdftex.def Info: img/drunk_spy.jpg used on input line 181.
-(pdftex.def)             Requested size: 167.62074pt x 177.36832pt.
+Package pdftex.def Info: img/drunk_spy.jpg used on input line 191.
+(pdftex.def)             Requested size: 217.49435pt x 230.14778pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -791,22 +807,26 @@ g/mm.jpg> <./img/combined.png
 
 pdfTeX warning: pdflatex (file ./img/combined.png): large interlaced PNG might 
 cause out of memory (use non-interlaced PNG to fix this)
+> <./img/qbit_thic.png
+
+pdfTeX warning: pdflatex (file ./img/qbit_thic.png): large interlaced PNG might
+ cause out of memory (use non-interlaced PNG to fix this)
 > <./img/drunk_spy.jpg>] (poster_portrait.aux) ) 
 Here is how much of TeX's memory you used:
- 15487 strings out of 493698
- 315061 string characters out of 3144403
- 374286 words of memory out of 3000000
- 18472 multiletter control sequences out of 15000+200000
+ 15490 strings out of 493698
+ 314461 string characters out of 3144403
+ 378245 words of memory out of 3000000
+ 18474 multiletter control sequences out of 15000+200000
  25208 words of font info for 51 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,9n,76p,1023b,1000s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,10n,76p,1023b,1000s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fo
 nts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pala
 tino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on poster_portrait.pdf (1 page, 6261925 bytes).
+Output written on poster_portrait.pdf (1 page, 6592172 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
