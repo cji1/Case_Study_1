@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.29)  27 JUN 2019 21:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.29)  28 JUN 2019 13:47
 entering extended mode
 **poster_portrait.tex
 (poster_portrait.tex
@@ -737,7 +737,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <24.88> not available
 File: img/mm.jpg Graphic file (type jpg)
  <use img/mm.jpg>
 Package pdftex.def Info: img/mm.jpg used on input line 115.
-(pdftex.def)             Requested size: 188.55473pt x 257.42987pt.
+(pdftex.def)             Requested size: 202.0238pt x 275.82669pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
@@ -791,11 +791,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--172
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<img/drunk_spy.jpg, id=35, 534.99875pt x 566.115pt>
-File: img/drunk_spy.jpg Graphic file (type jpg)
- <use img/drunk_spy.jpg>
-Package pdftex.def Info: img/drunk_spy.jpg used on input line 191.
-(pdftex.def)             Requested size: 217.49435pt x 230.14778pt.
+<img/luis_sp.png, id=35, 1366.35469pt x 1026.83624pt>
+File: img/luis_sp.png Graphic file (type png)
+ <use img/luis_sp.png>
+Package pdftex.def Info: img/luis_sp.png used on input line 193.
+(pdftex.def)             Requested size: 271.86691pt x 204.29817pt.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -811,22 +811,22 @@ cause out of memory (use non-interlaced PNG to fix this)
 
 pdfTeX warning: pdflatex (file ./img/qbit_thic.png): large interlaced PNG might
  cause out of memory (use non-interlaced PNG to fix this)
-> <./img/drunk_spy.jpg>] (poster_portrait.aux) ) 
+> <./img/luis_sp.png>] (poster_portrait.aux) ) 
 Here is how much of TeX's memory you used:
  15490 strings out of 493698
- 314461 string characters out of 3144403
- 378245 words of memory out of 3000000
+ 314451 string characters out of 3144403
+ 378349 words of memory out of 3000000
  18474 multiletter control sequences out of 15000+200000
  25208 words of font info for 51 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  62i,10n,76p,1023b,1000s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fo
-nts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/pala
-tino/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on poster_portrait.pdf (1 page, 6592172 bytes).
+{C:/Program Files/MiKTeX 2.9/font
+s/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palati
+no/uplb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on poster_portrait.pdf (1 page, 9566308 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 
